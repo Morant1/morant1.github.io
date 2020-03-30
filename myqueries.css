@@ -1,0 +1,380 @@
+@media screen and (max-width: 1500px){
+        body .sub {
+        text-align:left;
+        padding-left: 9%;
+    
+} 
+
+
+@media screen and (max-width: 1200px) {
+    body .hero-text-box {
+     width: 100%;
+     padding: 0 2%;
+    }
+     
+     body .row { padding: 0 2%; }
+    
+        body .sub {
+        text-align:left;
+        padding-left: 7.2%;
+    }
+}
+
+
+/*small tablets to big tablets from 768px to 1023px */
+@media only screen and (max-width: 1023px){
+    
+    html body .row {
+        margin: 0 auto;
+        padding: 0 1%;}
+    html body {font-size: 15px;}
+    
+    body .sub {
+        text-align:left;
+        padding-left: 11.2%;
+    }
+    .com{
+        text-align: right;
+        padding-right:10px;
+    }
+        
+        body .works-steps div {
+        height: 30px;
+        width: 30px;
+        margin-right: 15px;
+        padding : 4px;
+        font-size:110%;
+    }  
+    body .steps-box { margin-top: 10px;}
+    body .steps-box: last-child {margin-top:10px;}
+    body .works-steps {margin-bottom: 40px;}
+    body .works-steps:last-of-type {margin-bottom: 33px;}
+    .steps-box .app-screen {
+        width:60%;
+        margin-bottom: 8%;}
+    
+
+
+    
+    body .logo{
+        height:35px;
+    }
+    body .plan-price {
+        margin-top:10px;
+        font-size:190%;
+        
+    }
+    body .plan-price span{
+      font-size:50%;  
+    }
+    
+    body .contact-form {
+        width:100%;
+    }
+    
+    .plan-box ul {
+        font-size:90%;
+
+
+
+    }
+.footer-nav{
+        width:120%;
+        margin-bottom:10%;
+    font-size:90%;}
+    
+    .social-links {
+        font-size:70%
+    }
+    
+    body .section-plans .btn{
+      font-size: 75%;
+        padding:5% 7%;
+    }
+
+} 
+
+
+/*small phones and other  small tablets from 481px to 767px */
+@media only screen and (max-width: 767px){
+    body .col {width:100%;
+    margin: 0 auto;}
+    
+    .con{
+        text-align: center;
+    }
+    
+    body .com{
+        text-align: left;
+        padding-right:10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+   body input[type=text],
+   body  input[type=email],
+   body   select {
+    width:65%;
+    padding: 4px;
+    }
+    
+    body input[type=submit]{
+        text-align: center;
+    }
+    
+        body .social-links {
+        width:91%;
+        font-size:70%;
+        margin-bottom:3px;
+        text-align: left;
+    }
+    body .footer-nav{
+        width:50%;
+        margin-bottom:1%;
+    font-size:92%;}
+    
+        html .section-plans .btn{
+      font-size: 80%;
+        padding:2% 2%;}
+    
+       .steps-box .app-screen {
+           width:70%;}
+
+    .meal-figure{
+        height:150px;
+    }
+    .com{
+        text-align: right;
+        padding-right:10px;
+    }
+    
+    
+        body .works-steps div {
+        height: 30px;
+        width: 30px;
+        margin-right: 15px;
+        padding : 4px;
+        font-size:110%;
+    }   
+    
+    .meal-figure img{
+        display: block;
+        height:150px;
+        width:100%;
+        float: right;
+        transform:scale(1.06);
+        
+    }
+    
+
+    body .btn-app img{
+        width:100px;
+        height:40px;
+        
+    }
+    
+    
+   body blockquote{
+      padding-left:15px;;
+      padding-right:15px;
+       text-align: center;
+    }
+    
+    body .plan-box{
+        width:90%;
+
+    }
+
+    
+ body .plan-box div:first-child{
+   text-align: center;
+    height:120px;
+}
+
+    body .text{
+        height:130px;
+    }
+    
+    body .text i{
+    text-align: left;
+    width:10px;
+ 
+    }
+    
+    body .plan-box ul li {
+    padding: 1% 0;
+}
+    
+       body .img{
+        padding-right:6%;
+         padding-left:6%;
+        margin-bottom:0 ;
+
+    }
+    
+    body .sub {
+        text-align: center;
+        padding-left:0%;
+    }
+    body .works-steps {margin-bottom: 20px;}
+     body .works-steps:last-of-type {margin-bottom: 25px;
+}
+}
+
+
+/*small phones from 0 to 480px */
+@media only screen and (max-width: 480px){
+    body {font-size:14px;}
+    body .steps-box:first-child {
+        text-align: center;
+        margin-top:0;
+        margin-bottom:0;
+    }
+body .btn-ghost:link,
+body .btn-ghost:visited {
+    border: 1px solid #fff;
+    margin: auto 1px;
+    }
+    
+    body .works-steps {margin-bottom: 20px;}
+    body .works-steps:last-of-type {margin-bottom: 25px;
+}
+    .steps-box .app-screen {
+        width:40%;
+        margin-bottom: 0;
+    padding: 0;}
+
+    
+    body .social-links {
+        font-size:70%;
+        margin-bottom:2px;
+        text-align: center;
+    }
+    body .footer-nav{
+        width:120%;
+        margin-bottom:1%;
+    font-size:90%;}
+    
+    html .section-plans .btn{
+      font-size: 70%;
+        padding:2% 2%;}
+    
+
+    html body .row,
+    html  .hero-text-row {padding: 0 1%;}
+    body .col {width:100%;
+    margin: 0 auto;}
+    
+   body .main-nav{display:none;}
+    
+    body .main-nav {
+        float:right;
+       position:absolute;
+         right:20px;
+         top:0;
+    }
+    
+   body  .main-nav li {
+     display:block;
+     width:80px;
+       margin-bottom: 3px;
+    text-align: center;
+   
+    }
+    
+   body .main-nav li a:link,
+   body  .main-nav li a:visited {
+        display:block;
+        border:0;
+        font-size:70%;
+    
+    }
+    
+    body .mobile-nav-icon {
+        display:inline-block;
+        margin-top:8px;
+        margin-right:4px;
+        cursor:pointer;
+        
+    }
+    
+    h1 {font-size: 140%;}
+    h2 {font-size: 130%;}
+    h3 {font-size: 120%;}
+    
+        body .btn-app img{
+        margin-top: 25px;    
+        margin-bottom: 25px;
+         width: 25%;
+        height:30px;
+   
+}
+    .works-steps div {
+        height: 40px;
+        width: 40px;
+        margin-right: 15px;
+        padding : 4px;
+        font-size:120%;
+    }   
+    
+    .section-features .col{
+        width:100px;
+        padding-top:1%;
+        padding-bottom:1%;
+        font-size:15px;
+        height:30px;
+   
+    }
+    
+    html .plan-box{
+        margin-left:10px;
+        margin-right:10px;
+
+    }
+    
+    .meal-figure{
+        height:120px;
+    }
+    
+        .meal-figure img{
+        display: block;
+        height:120px;
+        width:100%;
+        float: right;
+    }
+    
+   body .social-links{
+        float:right;
+        padding-top:5px;
+        padding-left:px;
+       padding-bottom:5px;
+    }
+    
+      body blockquote{
+    margin-bottom: 10px;
+      padding-left:15px;;
+      padding-right:15px;
+       text-align: center;
+    }
+    
+    body .img{
+        padding-right:6%;
+         padding-left:6%;
+        margin-bottom:0 ;
+
+    }
+    
+    .section-cities h2{
+        padding-top: 20px;
+        
+    }
+        .section-cities h3{
+            padding-top: 0;}
+        
+    .con{
+        text-align: center;
+    }
+
+}
+
+
+
