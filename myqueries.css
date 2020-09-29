@@ -223,6 +223,13 @@
 
 /*small phones from 0 to 480px */
 @media only screen and (max-width: 480px){
+     body header {
+        background-size:auto;
+    }
+    body .section-test {
+        background-size:cover;
+        background-attachment: unset;
+    }
     body {font-size:14px;}
     body .steps-box:first-child {
         text-align: center;
@@ -278,6 +285,7 @@ body .btn-ghost:visited {
      width:80px;
        margin-bottom: 3px;
     text-align: center;
+     box-shadow: 0.5px 0.5px 3px #e67e22;
    
     }
     
